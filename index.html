@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Simrat Singh Gadh – Steuerfachangestellter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg: #0f1220;
+      --text: #eaeaf0;
+      --card: #1a1f36;
+      --accent: #4f7cff;
+    }
+
+    body.light {
+      --bg: #f4f6fb;
+      --text: #1a1a1a;
+      --card: #ffffff;
+      --accent: #3b5bdb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      max-width: 1100px;
+      margin: auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .toggle {
+      border: 1px solid var(--accent);
+      background: none;
+      color: var(--text);
+      padding: .4rem .9rem;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    .hero img {
+      width: 180px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.4);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: .3rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 14px;
+      margin-top: 1rem;
+    }
+
+    ul { padding-left: 1.2rem; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      opacity: .75;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .hero img {
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <strong>SG</strong>
+  <button class="toggle" onclick="toggleMode()">🌙 / ☀️</button>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="profile.jpg" alt="Simrat Singh Gadh">
+  <div>
+    <h1>Simrat Singh Gadh</h1>
+    <p><strong>Steuerfachangestellter</strong> · Student B.A. Vermögensmanagement</p>
+    <p>
+      Engagierter Steuerfachangestellter mit Fokus auf Effizienz, Prozessoptimierung und Mandantenzufriedenheit.<br>
+      <em>Dedicate
