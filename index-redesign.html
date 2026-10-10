@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="Das Portfolio von Simrat Singh Gadh – Steuerfachangestellter und Student im Vermögensmanagement.">
+  <title>Simrat Singh Gadh — Tax, Finance & Beyond</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+    :root{color-scheme:dark;--bg:#08090d;--panel:#11131b;--panel2:#171a24;--text:#f4f5f7;--muted:#a0a5b4;--line:rgba(255,255,255,.12);--accent:#9b8cff;--accent2:#69d9d0;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Manrope,system-ui,-apple-system,sans-serif;line-height:1.65;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background:radial-gradient(ellipse at 12% 10%,rgba(101,87,205,.18),transparent 32%),radial-gradient(ellipse at 90% 42%,rgba(58,181,177,.10),transparent 32%),#08090d}
+    a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}::selection{background:var(--accent);color:#08090d}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.mono,.eyebrow,.navlinks a,.pill,.year{font-family:"DM Mono",monospace;letter-spacing:.04em}.mono,.eyebrow{font-size:.75rem;text-transform:uppercase;color:var(--accent2)}.topbar{position:sticky;top:0;z-index:50;background:rgba(8,9,13,.76);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:800;letter-spacing:-.06em;font-size:1.05rem}.brand span{color:var(--accent)}.navlinks{display:flex;align-items:center;gap:24px}.navlinks a{font-size:.73rem;color:var(--muted);transition:color .2s}.navlinks a:hover{color:var(--text)}.nav-actions{display:flex;gap:8px}.smallbtn{border:1px solid var(--line);border-radius:999px;background:transparent;padding:9px 13px;font-size:.75rem}.smallbtn:hover{border-color:var(--accent)}.menu{display:none}
+    .hero{min-height:calc(100svh - 76px);display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:48px;padding-top:76px;padding-bottom:100px;position:relative}.hero:after{content:"";position:absolute;right:0;top:16%;width:42%;height:62%;z-index:-1;background:radial-gradient(ellipse,rgba(130,108,255,.20),transparent 68%);filter:blur(24px)}.status{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:var(--muted);font-size:.76rem;margin-bottom:28px}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent2);box-shadow:0 0 14px var(--accent2)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3.3rem,7.6vw,7.1rem);line-height:.98;letter-spacing:-.085em;margin-bottom:28px;font-weight:800}h1 .gradient{background:linear-gradient(100deg,#fff 5%,#b7afff 52%,#74ded3 100%);color:transparent;background-clip:text;-webkit-background-clip:text}.lead{font-size:clamp(1rem,1.5vw,1.2rem);color:#c3c6d0;max-width:650px;line-height:1.8}.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;border-radius:999px;padding:14px 20px;font-size:.88rem;font-weight:700;border:1px solid var(--line);transition:transform .2s,border-color .2s,background .2s}.btn:hover{transform:translateY(-3px);border-color:var(--accent)}.btn.primary{background:var(--text);color:#101117;border-color:var(--text)}.btn.primary:hover{background:#d9d4ff}.hero-note{margin-top:28px;color:var(--muted);font-size:.78rem}.portrait-stage{position:relative;display:grid;place-items:center;min-height:440px}.orb{position:absolute;width:min(390px,88%);aspect-ratio:1;border:1px solid rgba(178,166,255,.24);border-radius:50%;box-shadow:0 0 80px rgba(119,99,255,.12),inset 0 0 80px rgba(119,99,255,.06);animation:float 9s ease-in-out infinite}.orb:before,.orb:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.1);border-radius:50%;inset:10%}.orb:after{inset:22%;border-color:rgba(105,217,208,.22)}.portrait-card{position:relative;width:min(280px,72%);aspect-ratio:4/5;border:1px solid rgba(255,255,255,.22);border-radius:24px;overflow:hidden;background:linear-gradient(145deg,#242238,#11131b 65%);box-shadow:0 35px 100px rgba(0,0,0,.55);transform:rotate(3deg);transition:transform .5s}.portrait-card:hover{transform:rotate(0) translateY(-6px)}.portrait-card img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.82)}.portrait-overlay{position:absolute;inset:40% 0 0;background:linear-gradient(transparent,rgba(5,6,10,.9));display:flex;flex-direction:column;justify-content:end;padding:22px}.portrait-overlay strong{font-size:1.1rem}.portrait-overlay span{font-size:.75rem;color:#c2c5d1}.floating-tag{position:absolute;padding:12px 15px;border:1px solid var(--line);border-radius:14px;background:rgba(17,19,27,.86);backdrop-filter:blur(14px);font-size:.78rem;box-shadow:0 16px 40px rgba(0,0,0,.25)}.floating-tag b{display:block;font-size:.95rem}.tag-one{top:17%;right:-1%}.tag-two{bottom:17%;left:-2%}
+    .section{padding:112px 0;border-top:1px solid var(--line)}.section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;align-items:start;margin-bottom:52px}.section-head h2{font-size:clamp(2.3rem,5vw,4.7rem);line-height:1.02;letter-spacing:-.07em;margin:12px 0 0}.section-intro{color:var(--muted);max-width:600px;font-size:1rem}.section-intro p:last-child{margin-bottom:0}.story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.story-card{min-height:270px;padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.015));position:relative;overflow:hidden;transition:transform .25s,border-color .25s}.story-card:hover{transform:translateY(-5px);border-color:rgba(155,140,255,.55)}.card-index{font-family:"DM Mono",monospace;color:var(--accent2);font-size:.75rem}.story-card h3{font-size:1.25rem;letter-spacing:-.04em;margin:48px 0 12px}.story-card p{font-size:.9rem;color:var(--muted);margin:0}.story-card:after{content:"";position:absolute;width:140px;height:140px;right:-70px;top:-70px;border-radius:50%;background:rgba(155,140,255,.1);filter:blur(10px)}
+    .timeline{border-top:1px solid var(--line)}.timeline-item{display:grid;grid-template-columns:190px 1fr;gap:34px;padding:30px 0;border-bottom:1px solid var(--line)}.year{color:var(--accent2);font-size:.78rem;padding-top:6px}.timeline-item h3{font-size:1.25rem;margin:0 0 5px;letter-spacing:-.035em}.timeline-item .place{color:#d0d2db;font-size:.9rem;margin-bottom:10px}.timeline-item p{color:var(--muted);font-size:.9rem;margin:0;max-width:760px}
+    .skill-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}.skill-panel{border:1px solid var(--line);border-radius:20px;padding:28px;background:rgba(255,255,255,.025)}.skill-panel h3{font-size:1.1rem;margin-bottom:20px}.chips{display:flex;flex-wrap:wrap;gap:9px}.pill{font-size:.72rem;border:1px solid var(--line);border-radius:999px;padding:9px 12px;color:#d4d6df}.pill:hover{border-color:var(--accent);color:white}
+    .contact-box{border:1px solid rgba(155,140,255,.3);border-radius:26px;padding:clamp(28px,6vw,64px);background:radial-gradient(ellipse at 100% 0,rgba(155,140,255,.16),transparent 42%),linear-gradient(130deg,rgba(255,255,255,.04),rgba(255,255,255,.01));display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px}.contact-box h2{font-size:clamp(2.4rem,5vw,5rem);line-height:1;letter-spacing:-.075em;margin:15px 0 18px}.contact-box p{color:var(--muted);max-width:520px;margin:0}.contact-links{display:flex;flex-direction:column;gap:10px;min-width:210px}.contact-links a{border-bottom:1px solid var(--line);padding:9px 0;font-size:.9rem}.contact-links a:hover{color:var(--accent2)}
+    footer{padding:30px 0 40px;color:var(--muted);font-size:.75rem}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-links{display:flex;gap:18px}.footer-links button{border:0;background:none;color:var(--muted);padding:0}.footer-links button:hover{color:var(--text)}
+    .modal{display:none;position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.82);backdrop-filter:blur(10px);padding:24px;overflow:auto}.modal.open{display:block}.modal-card{max-width:760px;margin:5vh auto;background:#11131b;border:1px solid var(--line);border-radius:20px;padding:clamp(22px,4vw,42px);position:relative}.modal-card h2{font-size:2rem}.modal-card p{color:#c5c8d2}.modal-close{float:right;border:1px solid var(--line);border-radius:50%;width:38px;height:38px;background:transparent}.notice{font-size:.78rem;color:var(--muted);margin-top:18px}
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .75s ease,transform .75s ease}.reveal.visible{opacity:1;transform:translateY(0)}.delay1{transition-delay:.1s}.delay2{transition-delay:.2s}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-13px) rotate(3deg)}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+    @media(max-width:800px){.navlinks{display:none}.menu{display:inline-flex}.hero{grid-template-columns:1fr;gap:20px;padding-top:64px;min-height:auto}.hero-copy{position:relative;z-index:2}.portrait-stage{min-height:400px}.tag-one{right:6%}.tag-two{left:6%}.section{padding:78px 0}.section-head{grid-template-columns:1fr;gap:18px}.story-grid{grid-template-columns:1fr}.story-card{min-height:210px}.story-card h3{margin-top:28px}.timeline-item{grid-template-columns:1fr;gap:8px}.skill-layout{grid-template-columns:1fr}.contact-box{grid-template-columns:1fr}.contact-links{min-width:0}.footer-inner{align-items:flex-start;flex-direction:column}}
+    @media(max-width:480px){.wrap{width:min(var(--max),calc(100% - 32px))}.nav{height:66px}.nav-actions .smallbtn{padding:8px 10px}.hero{padding-top:48px;padding-bottom:70px}h1{font-size:clamp(3.2rem,16vw,5rem)}.portrait-stage{min-height:340px}.orb{width:300px}.portrait-card{width:220px}.floating-tag{font-size:.7rem}.section{padding:64px 0}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <header class="nav wrap">
+      <a class="brand" href="#top" aria-label="Zur Startseite">SG<span>.</span></a>
+      <nav class="navlinks" aria-label="Hauptnavigation">
+        <a href="#profil" data-de="PROFIL" data-en="PROFILE">PROFIL</a>
+        <a href="#weg" data-de="MEIN WEG" data-en="MY JOURNEY">MEIN WEG</a>
+        <a href="#kompetenzen" data-de="KOMPETENZEN" data-en="EXPERTISE">KOMPETENZEN</a>
+        <a href="#kontakt" data-de="KONTAKT" data-en="CONTACT">KONTAKT</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="smallbtn" id="languageBtn" type="button" aria-label="Sprache wechseln">DE / EN</button>
+        <button class="smallbtn" id="themeBtn" type="button" aria-label="Farbschema wechseln">◐</button>
+        <button class="smallbtn menu" type="button" onclick="document.querySelector('#profil').scrollIntoView({behavior:'smooth'})" aria-label="Zum Inhalt">↓</button>
+      </div>
+    </header>
+  </div>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="status"><span class="dot"></span><span data-de="Steuerwesen · Vermögensmanagement" data-en="Tax · Finance · Asset Management">Steuerwesen · Vermögensmanagement</span></div>
+        <p class="eyebrow" data-de="PERSÖNLICHES PORTFOLIO / 2026" data-en="PERSONAL PORTFOLIO / 2026">PERSÖNLICHES PORTFOLIO / 2026</p>
+        <h1>Simrat Singh<br><span class="gradient">Gadh.</span></h1>
+        <p class="lead" data-de="Ich verbinde steuerliches Fachwissen mit wirtschaftlichem Denken – und dem Anspruch, komplexe Themen verständlich, strukturiert und lösungsorientiert anzugehen." data-en="I combine tax expertise with a business mindset—and a commitment to approaching complex topics clearly, thoughtfully and with a focus on solutions.">Ich verbinde steuerliches Fachwissen mit wirtschaftlichem Denken – und dem Anspruch, komplexe Themen verständlich, strukturiert und lösungsorientiert anzugehen.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#profil"><span data-de="Portfolio entdecken" data-en="Explore portfolio">Portfolio entdecken</span> ↘</a>
+          <a class="btn" href="#kontakt"><span data-de="Kontakt aufnehmen" data-en="Get in touch">Kontakt aufnehmen</span> ↗</a>
+        </div>
+        <p class="hero-note" data-de="Steuerfachangestellter · B.A. Vermögensmanagement" data-en="Assistant tax consultant · B.A. Asset Management">Steuerfachangestellter · B.A. Vermögensmanagement</p>
+      </div>
+      <div class="portrait-stage" aria-label="Portrait und berufliche Schwerpunkte">
+        <div class="orb"></div>
+        <div class="portrait-card">
+          <img src="profile.JPG" alt="Porträt von Simrat Singh Gadh" onerror="this.style.display='none'">
+          <div class="portrait-overlay"><strong>Simrat Singh Gadh</strong><span data-de="Steuern. Wirtschaft. Perspektive." data-en="Tax. Business. Perspective.">Steuern. Wirtschaft. Perspektive.</span></div>
+        </div>
+        <div class="floating-tag tag-one"><b>Tax &amp; Finance</b><span data-de="Fachwissen mit Weitblick" data-en="Expertise with perspective">Fachwissen mit Weitblick</span></div>
+        <div class="floating-tag tag-two"><b>DE · EN · HI · PA</b><span data-de="Mehrsprachig unterwegs" data-en="Multilingual communication">Mehrsprachig unterwegs</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="profil">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-de="01 / PROFIL" data-en="01 / PROFILE">01 / PROFIL</p><h2 data-de="Zahlen verstehen.<br>Zusammenhänge sehen." data-en="Understand numbers.<br>See the bigger picture.">Zahlen verstehen.<br>Zusammenhänge sehen.</h2></div>
+          <div class="section-intro"><p data-de="Mein beruflicher Alltag bewegt sich zwischen Finanzbuchhaltung, Steuererklärungen und Jahresabschlüssen. Im Studium des Vermögensmanagements erweitere ich diese Perspektive um wirtschaftliche und finanzielle Zusammenhänge." data-en="My professional work spans financial accounting, tax returns and annual financial statements. Through my Asset Management degree, I am broadening that perspective to include wider business and financial contexts.">Mein beruflicher Alltag bewegt sich zwischen Finanzbuchhaltung, Steuererklärungen und Jahresabschlüssen. Im Studium des Vermögensmanagements erweitere ich diese Perspektive um wirtschaftliche und finanzielle Zusammenhänge.</p><p data-de="Mich interessieren klare Prozesse, sorgfältige Arbeit und Lösungen, die im Alltag wirklich funktionieren." data-en="I value clear processes, careful work and solutions that work in practice.">Mich interessieren klare Prozesse, sorgfältige Arbeit und Lösungen, die im Alltag wirklich funktionieren.</p></div>
+        </div>
+        <div class="story-grid">
+          <article class="story-card reveal"><span class="card-index">01 — PRECISION</span><h3 data-de="Sorgfalt im Detail" data-en="Precision in the details">Sorgfalt im Detail</h3><p data-de="Steuerliche Sachverhalte strukturiert bearbeiten und auch komplexe Informationen nachvollziehbar aufbereiten." data-en="Working through tax matters methodically and making complex information easier to follow.">Steuerliche Sachverhalte strukturiert bearbeiten und auch komplexe Informationen nachvollziehbar aufbereiten.</p></article>
+          <article class="story-card reveal delay1"><span class="card-index">02 — PROCESS</span><h3 data-de="Prozesse verbessern" data-en="Improving processes">Prozesse verbessern</h3><p data-de="Digitale Werkzeuge und klare Abläufe nutzen, um wiederkehrende Aufgaben effizienter zu gestalten." data-en="Using digital tools and clear workflows to make recurring tasks more efficient.">Digitale Werkzeuge und klare Abläufe nutzen, um wiederkehrende Aufgaben effizienter zu gestalten.</p></article>
+          <article class="story-card reveal delay2"><span class="card-index">03 — PERSPECTIVE</span><h3 data-de="Wirtschaftlich denken" data-en="Thinking commercially">Wirtschaftlich denken</h3><p data-de="Steuerliche Fragen nicht isoliert betrachten, sondern im Zusammenhang mit Unternehmen, Finanzen und Entscheidungen verstehen." data-en="Seeing tax questions in the wider context of businesses, finance and decision-making.">Steuerliche Fragen nicht isoliert betrachten, sondern im Zusammenhang mit Unternehmen, Finanzen und Entscheidungen verstehen.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="weg">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-de="02 / MEIN WEG" data-en="02 / MY JOURNEY">02 / MEIN WEG</p><h2 data-de="Erfahrung trifft<br>Weiterentwicklung." data-en="Experience meets<br>growth.">Erfahrung trifft<br>Weiterentwicklung.</h2></div>
+          <div class="section-intro"><p data-de="Mein Weg verbindet praktische Erfahrung im Steuerwesen mit einem betriebswirtschaftlichen Studium. So entwickle ich mein Wissen Schritt für Schritt weiter – in der Praxis und im Hörsaal." data-en="My path combines practical experience in tax with business studies. I keep building my knowledge step by step—in professional practice and in the classroom.">Mein Weg verbindet praktische Erfahrung im Steuerwesen mit einem betriebswirtschaftlichen Studium. So entwickle ich mein Wissen Schritt für Schritt weiter – in der Praxis und im Hörsaal.</p></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="year">08/2021 — HEUTE</div><div><h3>WINKOW PartG mbB</h3><div class="place" data-de="Steuerfachangestellter" data-en="Assistant tax consultant">Steuerfachangestellter</div><p data-de="Steuererklärungen und Jahresabschlüsse, laufende Finanzbuchhaltung, betriebswirtschaftliche Auswertungen sowie Korrespondenz mit Finanzbehörden und Betreuung von Mandanten." data-en="Tax returns and annual financial statements, ongoing financial accounting, management reports, correspondence with tax authorities and day-to-day client support.">Steuererklärungen und Jahresabschlüsse, laufende Finanzbuchhaltung, betriebswirtschaftliche Auswertungen sowie Korrespondenz mit Finanzbehörden und Betreuung von Mandanten.</p></div></article>
+          <article class="timeline-item reveal"><div class="year">2024 — 2027</div><div><h3 data-de="B.A. Vermögensmanagement" data-en="B.A. Asset Management">B.A. Vermögensmanagement</h3><div class="place" data-de="Duale Hochschule Sachsen" data-en="Saxony Cooperative State University">Duale Hochschule Sachsen</div><p data-de="Duales Studium mit wirtschaftlichem Schwerpunkt und Studienrichtung Steuerberatung / Wirtschaftsprüfung." data-en="Dual degree with a business focus and a study track in tax advisory and auditing.">Duales Studium mit wirtschaftlichem Schwerpunkt und Studienrichtung Steuerberatung / Wirtschaftsprüfung.</p></div></article>
+          <article class="timeline-item reveal"><div class="year">2021 — 2024</div><div><h3 data-de="Ausbildung Steuerfachangestellter" data-en="Vocational training in tax">Ausbildung Steuerfachangestellter</h3><div class="place" data-de="Berufliche Qualifikation" data-en="Professional qualification">Berufliche Qualifikation</div><p data-de="Grundlage für die heutige Arbeit in der Steuerberatung und den weiteren fachlichen Ausbau." data-en="The foundation for my current work in tax advisory and continued professional development.">Grundlage für die heutige Arbeit in der Steuerberatung und den weiteren fachlichen Ausbau.</p></div></article>
+          <article class="timeline-item reveal"><div class="year">2017 — 2021</div><div><h3 data-de="Maschinenbau (Studium begonnen)" data-en="Mechanical Engineering (studies started)">Maschinenbau (Studium begonnen)</h3><div class="place">TU Dresden</div><p data-de="Das Studium wurde nicht abgeschlossen; die Zeit prägte dennoch mein strukturiertes und analytisches Denken." data-en="The degree was not completed, but the experience helped shape my structured and analytical approach.">Das Studium wurde nicht abgeschlossen; die Zeit prägte dennoch mein strukturiertes und analytisches Denken.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kompetenzen">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-de="03 / KOMPETENZEN" data-en="03 / EXPERTISE">03 / KOMPETENZEN</p><h2 data-de="Werkzeuge für<br>gute Ergebnisse." data-en="Tools for<br>better outcomes.">Werkzeuge für<br>gute Ergebnisse.</h2></div>
+          <div class="section-intro"><p data-de="Fachliche Grundlagen, digitale Werkzeuge und Kommunikation gehören für mich zusammen. Die folgenden Bereiche spiegeln meine derzeitigen Schwerpunkte wider." data-en="Professional knowledge, digital tools and communication belong together. These areas reflect my current focus.">Fachliche Grundlagen, digitale Werkzeuge und Kommunikation gehören für mich zusammen. Die folgenden Bereiche spiegeln meine derzeitigen Schwerpunkte wider.</p></div>
+        </div>
+        <div class="skill-layout">
+          <div class="skill-panel reveal"><h3 data-de="Fachliche Schwerpunkte" data-en="Professional focus">Fachliche Schwerpunkte</h3><div class="chips"><span class="pill">Finanzbuchhaltung</span><span class="pill">Steuerrecht</span><span class="pill">Steuererklärungen</span><span class="pill">Jahresabschlüsse</span><span class="pill">BWA</span><span class="pill">Mandantenbetreuung</span></div></div>
+          <div class="skill-panel reveal delay1"><h3 data-de="Tools & Kommunikation" data-en="Tools & communication">Tools & Kommunikation</h3><div class="chips"><span class="pill">ADDISON</span><span class="pill">MS Excel</span><span class="pill">Digitale Prozesse</span><span class="pill">Deutsch</span><span class="pill">English</span><span class="pill">Hindi</span><span class="pill">Punjabi</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <div><p class="eyebrow" data-de="04 / KONTAKT" data-en="04 / CONTACT">04 / KONTAKT</p><h2 data-de="Lass uns<br>in Kontakt bleiben." data-en="Let's stay<br>in touch.">Lass uns<br>in Kontakt bleiben.</h2><p data-de="Du möchtest dich beruflich austauschen oder Kontakt aufnehmen? Schreib mir gerne eine Nachricht oder besuche mein LinkedIn-Profil." data-en="Want to connect professionally or get in touch? Feel free to email me or visit my LinkedIn profile.">Du möchtest dich beruflich austauschen oder Kontakt aufnehmen? Schreib mir gerne eine Nachricht oder besuche mein LinkedIn-Profil.</p></div>
+          <div class="contact-links"><a href="mailto:simrat.gadh@icloud.com">E-Mail ↗</a><a href="https://www.linkedin.com/in/sgadh" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/supersamlive" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://x.com/SimratOnline" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap"><div class="footer-inner"><span>© <span id="yearNow">2026</span> Simrat Singh Gadh · <span data-de="Mit Sorgfalt gestaltet." data-en="Designed with care.">Mit Sorgfalt gestaltet.</span></span><div class="footer-links"><button type="button" data-modal="impressum" data-de="Impressum" data-en="Legal notice">Impressum</button><button type="button" data-modal="datenschutz" data-de="Datenschutz" data-en="Privacy">Datenschutz</button></div></div></footer>
+
+  <div class="modal" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card"><button class="modal-close" type="button" id="modalClose" aria-label="Schließen">×</button><div id="legalContent"></div></div>
+  </div>
+
+  <script>
+    const translations = {
+      de: {
+        impressum: `<h2 id="modalTitle">Impressum</h2><p><strong>Angaben gemäß § 5 DDG</strong></p><p>Simrat Singh Gadh<br>c/o Puneet Singh<br>Bombay Mirchi<br>Mildred-Scheel-Straße 2<br>01307 Dresden<br>Deutschland</p><p><strong>Kontakt</strong><br>E-Mail: simrat.gadh@icloud.com</p><p><strong>Verantwortlich für den Inhalt</strong><br>Simrat Singh Gadh</p>`,
+        datenschutz: `<h2 id="modalTitle">Datenschutzhinweise</h2><p>Diese Website wird über GitHub Pages bereitgestellt. Beim Aufruf können durch den Hostinganbieter technisch notwendige Zugriffsdaten verarbeitet werden. Die Website enthält Links zu externen Diensten wie LinkedIn, Instagram und X; für deren Datenverarbeitung gelten deren jeweilige Datenschutzhinweise.</p><p>Bitte prüfe diese Hinweise vor Veröffentlichung auf Aktualität und Vollständigkeit und ergänze gegebenenfalls weitere Angaben zu eingebundenen Diensten.</p>`
+      },
+      en: {
+        impressum: `<h2 id="modalTitle">Legal notice</h2><p><strong>Information pursuant to § 5 DDG</strong></p><p>Simrat Singh Gadh<br>c/o Puneet Singh<br>Bombay Mirchi<br>Mildred-Scheel-Straße 2<br>01307 Dresden<br>Germany</p><p><strong>Contact</strong><br>Email: simrat.gadh@icloud.com</p><p><strong>Content responsible</strong><br>Simrat Singh Gadh</p>`,
+        datenschutz: `<h2 id="modalTitle">Privacy information</h2><p>This website is hosted using GitHub Pages. When the site is accessed, the hosting provider may process technically necessary access data. The site links to external services such as LinkedIn, Instagram and X; their own privacy policies apply to processing on those platforms.</p><p>Please review this notice for accuracy and completeness before publishing and add any details required for embedded services.</p>`
+      }
+    };
+    let language = 'de';
+    const langBtn = document.getElementById('languageBtn');
+    langBtn.addEventListener('click', () => {
+      language = language === 'de' ? 'en' : 'de';
+      document.documentElement.lang = language;
+      document.querySelectorAll('[data-de][data-en]').forEach(el => { el.innerHTML = el.dataset[language]; });
+      document.querySelectorAll('.footer-links button').forEach(el => { el.textContent = el.dataset[language]; });
+      langBtn.textContent = language === 'de' ? 'DE / EN' : 'EN / DE';
+      const openModal = document.getElementById('legalModal');
+      if (openModal.classList.contains('open')) {
+        const key = openModal.dataset.key;
+        if (key) document.getElementById('legalContent').innerHTML = translations[language][key];
+      }
+    });
+    document.getElementById('themeBtn').addEventListener('click', () => {
+      const light = document.body.classList.toggle('light-mode');
+      if (light) {
+        document.documentElement.style.setProperty('--bg','#f4f3f9');
+        document.documentElement.style.setProperty('--panel','#fff');
+        document.documentElement.style.setProperty('--panel2','#eeedf5');
+        document.documentElement.style.setProperty('--text','#171722');
+        document.documentElement.style.setProperty('--muted','#5d6070');
+        document.documentElement.style.setProperty('--line','rgba(20,20,35,.16)');
+        document.body.style.colorScheme='light';
+        document.body.style.background='radial-gradient(ellipse at 12% 10%,rgba(101,87,205,.12),transparent 32%),#f4f3f9';
+      } else {
+        ['--bg','--panel','--panel2','--text','--muted','--line'].forEach((v,i)=>document.documentElement.style.removeProperty(v));
+        document.body.style.colorScheme='dark';
+        document.body.style.background='';
+      }
+    });
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+    }, {threshold: .12});
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    document.getElementById('yearNow').textContent = new Date().getFullYear();
+    const modal = document.getElementById('legalModal');
+    document.querySelectorAll('[data-modal]').forEach(btn => btn.addEventListener('click', () => {
+      const key = btn.dataset.modal;
+      modal.dataset.key = key;
+      document.getElementById('legalContent').innerHTML = translations[language][key];
+      modal.classList.add('open');
+      document.body.style.overflow='hidden';
+    }));
+    function closeLegal(){modal.classList.remove('open');document.body.style.overflow='';}
+    document.getElementById('modalClose').addEventListener('click',closeLegal);
+    modal.addEventListener('click',e=>{if(e.target===modal)closeLegal();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLegal();});
+  </script>
+</body>
+</html>
